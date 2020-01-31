@@ -108,4 +108,4 @@ const config = {
 ClassicEditor.defaultConfig = config;
 InlineEditor.defaultConfig = config;
 
-export { ClassicEditor, InlineEditor };
+export default { ClassicEditor, InlineEditor };
