@@ -34,7 +34,7 @@ class ClassicEditor extends ClassicEditorBase { }
 class InlineEditor extends InlineEditorBase { }
 
 // Plugins to include in the build.
-//ClassicEditor.builtinPlugins = [
+// ClassicEditor.builtinPlugins = [
 const plugins = [
 	Essentials,
 	UploadAdapter,
@@ -108,4 +108,4 @@ const config = {
 ClassicEditor.defaultConfig = config;
 InlineEditor.defaultConfig = config;
 
-export { ClassicEditor, InlineEditor }
+export { ClassicEditor, InlineEditor };
